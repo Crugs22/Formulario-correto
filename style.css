@@ -1,0 +1,53 @@
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(44, 43, 43);
+    width: 100%;
+    margin: -10px;
+    padding: 10px;
+}
+
+header {
+    color: #0077ff;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: .3s;
+    
+}
+
+a:hover {
+    background: #0077ff;
+  color: white;
+  border-radius: 20px;
+  border: 20px;
+  padding: 5px;
+  font-size: 1.5em;
+  border-width: 4px;
+}
+
+ul {
+    display: inline-flex;
+    padding-top: 10px;
+}
+
+input {
+    border: 0px;
+    align-items: center;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #0077ff;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+}
